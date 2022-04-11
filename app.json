@@ -1,0 +1,30 @@
+{
+  "name": "coco",
+  "description": "coco",
+  "keywords": [
+    "vless"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "vmess or vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocketlj",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/TWOPPUU33/wwwcc00",
+  "repository": "https://github.com/TWOPPUU33/wwwcc00",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
